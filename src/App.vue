@@ -1,16 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <QueryWithoutVariables/>
+  <br/><br/><br/><br/>
+  <QueryWithVariables />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import QueryWithoutVariables from './components/QueryWithoutVariables';
+import QueryWithVariables from './components/QueryWithVariables';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    QueryWithoutVariables, QueryWithVariables
+  },
 }
 </script>
 
